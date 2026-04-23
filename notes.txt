@@ -1,0 +1,10 @@
+term one mistakes
+
+canvas = document.getElementById("myCanvas");
+context = canvas.getContext("2d");
+^^^ this goes before you draw anything
+
+<script type="text/javascript" src="js/gameObject.js"></script>
+^^^ this before game.js
+<script type="text/javascript" src="js/game.js"></script>
+        
